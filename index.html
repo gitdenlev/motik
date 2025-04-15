@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>MOTOTEK - Мотоцикли</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1>MOTOTEK</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Головна</a></li>
+          <li><a href="#models">Моделі</a></li>
+          <li><a href="#about">Про нас</a></li>
+          <li><a href="./contacts.html">Контакти</a></li>
+          <li id="cart-container">
+            <a href="cart.html" aria-label="Кошик">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="cart-icon"
+              >
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path
+                  d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"
+                ></path>
+              </svg>
+              <span id="cart-count">0</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h2>Будь готовий до пригод!</h2>
+        <p>Відкрийте для себе найкращі мотоцикли від MOTOTEK</p>
+        <a href="#models" class="btn-primary">Переглянути моделі</a>
+      </div>
+    </section>
+
+    <section id="models">
+      <h2>Наші мотоцикли</h2>
+      <div class="motorcycle-grid">
+        <div class="card">
+          <img
+            src="./images/thumb_geon-cr6s-250__1_.jpg"
+            alt="Мотоцикл Geon Cr6S 250"
+          />
+          <h3>Geon Cr6S 250</h3>
+          <p>Опис моделі 1</p>
+          <p class="price">$1674</p>
+          <button class="btn-buy add-to-cart-btn" data-id="geon-cr6s-250">
+            Додати в кошик
+          </button>
+        </div>
+        <div class="card">
+          <img
+            src="./images/fef2c1e47c3a0752dcb6b58c8128b619.jpg"
+            alt="Мотоцикл Geon Pantera 200"
+          />
+          <h3>Geon Pantera 200</h3>
+          <p>
+            Комфортний та універсальний мотоцикл. Відмінний для міста та
+            подорожей.
+          </p>
+          <p class="price">$1431</p>
+          <button class="btn-buy add-to-cart-btn" data-id="geon-pantera-200">
+            Додати в кошик
+          </button>
+        </div>
+        <div class="card">
+          <img src="./images/previev.jfif" alt="Мотоцикл SPARK SP250P-1" />
+          <h3>SPARK SP250P-1</h3>
+          <p>Опис моделі SPARK SP250P-1</p>
+          <p class="price">$1625</p>
+          <button class="btn-buy add-to-cart-btn" data-id="spark-sp250p-1">
+            Додати в кошик
+          </button>
+        </div>
+        <div class="card">
+          <img
+            src="./images/mototsykl-enduro-geon-gns-300-nc-riznobarvnyi-2024-88472269690261.png"
+            alt="Мотоцикл Geon GNS 300"
+          />
+          <h3>Geon GNS 300</h3>
+          <p>Опис моделі 4</p>
+          <p class="price">$2765</p>
+          <button class="btn-buy add-to-cart-btn" data-id="geon-gns-300">
+            Додати в кошик
+          </button>
+        </div>
+        <div class="card">
+          <img
+            src="./images/geon_scrambler_250_599_f9a5a312_a.jpg"
+            alt="Мотоцикл Geon Scrambler 250"
+          />
+          <h3>Geon Scrambler 250</h3>
+          <p>Опис моделі 5</p>
+          <p class="price">$1940</p>
+          <button class="btn-buy add-to-cart-btn" data-id="geon-scrambler-250">
+            Додати в кошик
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>Про нас</h2>
+      <p>
+        MOTOTEK — це компанія, яка пропонує інноваційні та високоякісні
+        мотоцикли для любителів швидкості та пригод.
+      </p>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 MOTOTEK. Всі права захищено.</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
